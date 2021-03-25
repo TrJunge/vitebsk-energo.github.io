@@ -139,19 +139,11 @@ width: auto;
     background-size: 1.1rem;
   }
 
-
-
   .table_view {
     margin-top: 10px;
-    border-collapse: collapse;
-    /* width: 100%; */
    }
   
-  .table_view td, .table_view th {
-    padding: 10px;
-  }
   .table_view td{
-    font-family: Montserrat-Light;
     font-size: 8px;
     width: 300px;
   }
@@ -162,19 +154,9 @@ width: auto;
   .detailed_button {
     height: 25px;
     border: 1px solid rgb(0, 173, 239);
-    color: rgb(0, 173, 239);
     padding: 2px 2px 2px 2px;
-    cursor: pointer;
-    background: none;
-    align-self: center;
-    background-repeat: no-repeat;
     width: auto;
-    margin: 0;
     font-size: 8px;
   }
-  
-  .detailed_button:hover {
-    color: white;
-    background: rgb(0, 173, 239);
-  }
+
 }

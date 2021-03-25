@@ -48,34 +48,11 @@
     font-size: 12px;
     width: 300px;
   }
-  .table_view th {
-    font-family: Montserrat-Medium;
-    text-align: left;
-    font-size: 18px;
-  }
   .table_view tr:nth-child(2n) {
     background: #E5E5E5;
   }
   .table_view td:last-of-type {
   width: auto;
-  }
-  
-  .detailed_button {
-    height: 25px;
-    border: 1px solid rgb(0, 173, 239);
-    color: rgb(0, 173, 239);
-    padding: 5px 5px 5px 5px;
-    cursor: pointer;
-    background: none;
-    align-self: center;
-    background-repeat: no-repeat;
-    width: auto;
-    margin: 0;
-  }
-  
-  .detailed_button:hover {
-    color: white;
-    background: rgb(0, 173, 239);
   }
   
   
@@ -92,39 +69,13 @@
   
     .table_view {
       margin-top: 10px;
-      border-collapse: collapse;
-      /* width: 100%; */
      }
     
-    .table_view td, .table_view th {
-      padding: 10px;
-    }
     .table_view td{
       font-family: Montserrat-Light;
       font-size: 8px;
       width: 300px;
     }
-    .table_view th {
-      font-size: 10px;
-    }
-    
-    .detailed_button {
-      height: 25px;
-      border: 1px solid rgb(0, 173, 239);
-      color: rgb(0, 173, 239);
-      padding: 2px 2px 2px 2px;
-      cursor: pointer;
-      background: none;
-      align-self: center;
-      background-repeat: no-repeat;
-      width: auto;
-      margin: 0;
-      font-size: 8px;
-    }
-    
-    .detailed_button:hover {
-      color: white;
-      background: rgb(0, 173, 239);
-    }
+
   }
   
